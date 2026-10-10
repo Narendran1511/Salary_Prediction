@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Salary Predictor | IBM BOB Project</title>
+    <meta name="description" content="AI & Machine Learning Salary Prediction Dashboard. Real-time compensation forecasting powered by Random Forest Regressor (R² = 0.935).">
+    
+    <!-- Modern Typography: Plus Jakarta Sans & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="sunset">
+    <!-- Ambient Animated Background Glow Orbs -->
+    <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+    <div class="ambient-glow glow-bottom-right" aria-hidden="true"></div>
+    <div class="ambient-glow glow-center" aria-hidden="true"></div>
+
+    <!-- Top Navigation Header -->
+    <header class="app-header">
+        <div class="header-content">
+            <div class="brand-group">
+                <div class="brand-icon">💼</div>
+                <div class="brand-text">
+                    <span class="brand-title">IBM BOB • Bharat Cares</span>
+                    <span class="brand-subtitle">Workforce Intelligence & Salary ML Predictor</span>
+                </div>
+            </div>
+            
+            <div class="header-actions">
+                <div class="model-badge" title="Trained on 373 real professional records">
+                    <span class="pulse-dot"></span>
+                    <span class="badge-text">Random Forest • R² 0.935</span>
+                </div>
+                
+                <!-- Theme Toggle Button -->
+                <button id="themeToggleBtn" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                    <span class="theme-icon-light">🌅</span>
+                    <span class="theme-icon-dark">🌙</span>
+                    <span id="themeLabel">Sunset Glow</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <!-- Quick Persona Presets Bar (Pattern: 1-Click Persona Simulator) -->
+        <section class="persona-section" aria-label="Quick Career Presets">
+            <div class="persona-label">⚡ QUICK CAREER PRESETS:</div>
+            <div class="persona-chips" id="personaChips">
+                <button class="persona-btn active" data-persona="entry-analyst">
+                    <span class="p-icon">🌱</span>
+                    <span class="p-name">Junior Analyst</span>
+                    <span class="p-sub">Age 25 • 1y exp • Bachelor's</span>
+                </button>
+                <button class="persona-btn" data-persona="software-dev">
+                    <span class="p-icon">💻</span>
+                    <span class="p-name">Software Engineer</span>
+                    <span class="p-sub">Age 30 • 4y exp • Master's</span>
+                </button>
+                <button class="persona-btn" data-persona="senior-data">
+                    <span class="p-icon">📊</span>
+                    <span class="p-name">Senior Data Scientist</span>
+                    <span class="p-sub">Age 38 • 10y exp • PhD</span>
+                </button>
+                <button class="persona-btn" data-persona="director-ops">
+                    <span class="p-icon">👑</span>
+                    <span class="p-name">Director of Operations</span>
+                    <span class="p-sub">Age 48 • 18y exp • Master's</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Main Grid: Predictor Card (Hero Pattern) & Analytical Extensions -->
+        <div class="dashboard-grid">
+            
+            <!-- LEFT COLUMN: THE PRIMARY PREDICTOR CARD (Inspired by User's Reference) -->
+            <section class="predictor-card-container">
+                <div class="predictor-card" id="predictorCard">
+                    
+                    <div class="card-header">
+                        <div class="header-title-row">
+                            <h1 class="card-title">Salary Predictor</h1>
+                            <span class="live-indicator" id="liveIndicator">● Live Inference</span>
+                        </div>
+                        <p class="card-subtitle">Machine-learning estimate based on an employee profile</p>
+                    </div>
+
+                    <form id="salaryForm" class="predictor-form" onsubmit="event.preventDefault();">
+                        
+                        <!-- ROW 1: AGE & YEARS OF EXPERIENCE (Dual Control: Number + Slider) -->
+                        <div class="form-row-two-col">
+                            <!-- Age Input -->
+                            <div class="form-group">
+                                <div class="label-with-val">
+                                    <label for="ageInput">AGE</label>
+                                    <span class="value-badge" id="ageBadge">25 yrs</span>
+                                </div>
+                                <div class="dual-input-wrapper">
+                                    <input type="number" id="ageInput" min="18" max="65" value="25" class="custom-num-input" required>
+                                    <input type="range" id="ageSlider" min="18" max="65" value="25" class="custom-slider" aria-label="Age slider">
+                                </div>
+                            </div>
+
+                            <!-- Years of Experience Input -->
+                            <div class="form-group">
+                                <div class="label-with-val">
+                                    <label for="expInput">YEARS OF EXPERIENCE</label>
+                                    <span class="value-badge" id="expBadge">1.0 yr</span>
+                                </div>
+                                <div class="dual-input-wrapper">
+                                    <input type="number" id="expInput" min="0" max="35" step="0.5" value="1" class="custom-num-input" required>
+                                    <input type="range" id="expSlider" min="0" max="35" step="0.5" value="1" class="custom-slider" aria-label="Years of Experience slider">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ROW 2: GENDER & EDUCATION LEVEL (Segmented Controls) -->
+                        <div class="form-row-two-col">
+                            <!-- Gender -->
+                            <div class="form-group">
+                                <label>GENDER</label>
+                                <div class="segmented-control" role="radiogroup" aria-label="Gender">
+                                    <button type="button" class="segment-btn active" data-gender="Male">Male</button>
+                                    <button type="button" class="segment-btn" data-gender="Female">Female</button>
+                                </div>
+                                <input type="hidden" id="genderInput" value="Male">
+                            </div>
+
+                            <!-- Education Level -->
+                            <div class="form-group">
+                                <label>EDUCATION LEVEL</label>
+                                <div class="segmented-control edu-control" role="radiogroup" aria-label="Education Level">
+                                    <button type="button" class="segment-btn active" data-edu="Bachelor's">Bachelor's</button>
+                                    <button type="button" class="segment-btn" data-edu="Master's">Master's</button>
+                                    <button type="button" class="segment-btn" data-edu="PhD">PhD</button>
+                                </div>
+                                <input type="hidden" id="eduInput" value="Bachelor's">
+                            </div>
+                        </div>
+
+                        <!-- ROW 3: JOB TITLE (Searchable Select + Quick Role Chips) -->
+                        <div class="form-group">
+                            <div class="label-with-val">
+                                <label for="jobTitleSelect">JOB TITLE</label>
+                                <span class="tag-meta" id="domainMeta">Data & Analytics • Junior</span>
+                            </div>
+                            
+                            <div class="select-wrapper">
+                                <select id="jobTitleSelect" class="custom-select" aria-label="Job Title">
+                                    <option value="Data Analyst" selected>Data Analyst</option>
+                                    <option value="Software Engineer">Software Engineer</option>
+                                    <option value="Senior Data Scientist">Senior Data Scientist</option>
+                                    <option value="Product Manager">Product Manager</option>
+                                    <option value="Marketing Manager">Marketing Manager</option>
+                                    <option value="Director of Operations">Director of Operations</option>
+                                    <option value="Director of Marketing">Director of Marketing</option>
+                                    <option value="Financial Analyst">Financial Analyst</option>
+                                    <option value="HR Manager">HR Manager</option>
+                                    <option value="Senior Software Engineer">Senior Software Engineer</option>
+                                    <option value="Chief Technology Officer">Chief Technology Officer</option>
+                                    <option value="UX Designer">UX Designer</option>
+                                    <option value="Business Analyst">Business Analyst</option>
+                                    <option value="Sales Manager">Sales Manager</option>
+                                </select>
+                            </div>
+
+                            <!-- Popular Role Quick-Picks (Pattern: Chips) -->
+                            <div class="quick-roles-tray">
+                                <span class="tray-title">Suggestions:</span>
+                                <button type="button" class="role-chip" data-title="Data Analyst">Data Analyst</button>
+                                <button type="button" class="role-chip" data-title="Software Engineer">Software Engineer</button>
+                                <button type="button" class="role-chip" data-title="Senior Data Scientist">Data Scientist</button>
+                                <button type="button" class="role-chip" data-title="Product Manager">Product Manager</button>
+                                <button type="button" class="role-chip" data-title="Director of Operations">Director</button>
+                            </div>
+                        </div>
+
+                        <!-- PREDICT SALARY ACTION BUTTON -->
+                        <button type="submit" id="predictBtn" class="primary-predict-btn">
+                            <span class="btn-spinner" id="btnSpinner" aria-hidden="true"></span>
+                            <span class="btn-text">Predict Salary</span>
+                        </button>
+
+                        <!-- RESULT CARD (Matches User Reference Styling) -->
+                        <div class="estimated-result-card" id="resultCard">
+                            <div class="result-header-label">ESTIMATED ANNUAL SALARY</div>
+                            <div class="result-amount-display">
+                                <span class="currency-symbol">$</span>
+                                <span id="salaryNumber" class="counter-number">37,317</span>
+                            </div>
+
+                            <!-- Confidence Band Sub-Indicator -->
+                            <div class="confidence-band">
+                                <div class="band-label-row">
+                                    <span id="bandLower">$34,331</span>
+                                    <span class="band-title">95% Market Expectation Band (±8%)</span>
+                                    <span id="bandUpper">$40,302</span>
+                                </div>
+                                <div class="band-track">
+                                    <div class="band-fill" id="bandFill"></div>
+                                </div>
+                            </div>
+
+                            <!-- Micro Breakdown Badges -->
+                            <div class="micro-breakdown-row">
+                                <div class="breakdown-item">
+                                    <span class="b-lbl">MONTHLY</span>
+                                    <span class="b-val" id="monthlyVal">$3,110 / mo</span>
+                                </div>
+                                <div class="breakdown-divider"></div>
+                                <div class="breakdown-item">
+                                    <span class="b-lbl">HOURLY (40H)</span>
+                                    <span class="b-val" id="hourlyVal">$17.94 / hr</span>
+                                </div>
+                                <div class="breakdown-divider"></div>
+                                <div class="breakdown-item">
+                                    <span class="b-lbl">MARKET STANDING</span>
+                                    <span class="b-val highlight-val" id="percentileVal">35th Percentile</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </section>
+
+            <!-- RIGHT COLUMN: MULTI-PATTERN ANALYTICS & WHAT-IF SIMULATORS -->
+            <div class="insights-column">
+                
+                <!-- PATTERN 1: INTERACTIVE CAREER TRAJECTORY CURVE -->
+                <section class="insight-card">
+                    <div class="card-mini-header">
+                        <div class="mini-title-group">
+                            <span class="mini-icon">📈</span>
+                            <div>
+                                <h2 class="mini-title">Career Trajectory Simulation</h2>
+                                <p class="mini-desc">Projected earnings over 0–20 years of experience for this role</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chart-container" id="trajectoryChartContainer">
+                        <svg id="trajectorySvg" viewBox="0 0 500 200" preserveAspectRatio="none" class="trajectory-svg">
+                            <!-- Gradient definitions -->
+                            <defs>
+                                <linearGradient id="areaGradient" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#8B1E2B" stop-opacity="0.35"/>
+                                    <stop offset="100%" stop-color="#8B1E2B" stop-opacity="0.02"/>
+                                </linearGradient>
+                            </defs>
+                            <!-- Gridlines -->
+                            <line x1="40" y1="30" x2="480" y2="30" class="svg-gridline" />
+                            <line x1="40" y1="85" x2="480" y2="85" class="svg-gridline" />
+                            <line x1="40" y1="140" x2="480" y2="140" class="svg-gridline" />
+                            
+                            <!-- Area & Path -->
+                            <path id="trajectoryArea" class="trajectory-area" d="" />
+                            <path id="trajectoryPath" class="trajectory-line" d="" />
+                            
+                            <!-- Interactive Dots rendered by JS -->
+                            <g id="trajectoryDots"></g>
+                        </svg>
+
+                        <!-- Chart Tooltip -->
+                        <div id="chartTooltip" class="chart-tooltip"></div>
+                    </div>
+
+                    <div class="chart-milestones-row" id="milestonesRow">
+                        <!-- Populated dynamically -->
+                    </div>
+                </section>
+
+                <!-- PATTERN 2: EDUCATION ROI COMPARISON MATRIX -->
+                <section class="insight-card">
+                    <div class="card-mini-header">
+                        <div class="mini-title-group">
+                            <span class="mini-icon">🎓</span>
+                            <div>
+                                <h2 class="mini-title">Degree Impact & ROI Analysis</h2>
+                                <p class="mini-desc">Estimated salary difference for this role across academic tiers</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="edu-roi-grid" id="eduRoiGrid">
+                        <!-- Card: Bachelor's -->
+                        <div class="roi-card" id="roiBachelors">
+                            <span class="roi-degree">Bachelor's</span>
+                            <span class="roi-salary" id="roiBachelorsVal">$37,317</span>
+                            <span class="roi-badge base-badge">Baseline</span>
+                        </div>
+                        <!-- Card: Master's -->
+                        <div class="roi-card" id="roiMasters">
+                            <span class="roi-degree">Master's</span>
+                            <span class="roi-salary" id="roiMastersVal">$48,500</span>
+                            <span class="roi-badge positive-badge" id="roiMastersDiff">+ $11,183 (+30%)</span>
+                        </div>
+                        <!-- Card: PhD -->
+                        <div class="roi-card" id="roiPhd">
+                            <span class="roi-degree">Doctorate (PhD)</span>
+                            <span class="roi-salary" id="roiPhdVal">$65,200</span>
+                            <span class="roi-badge positive-badge" id="roiPhdDiff">+ $27,883 (+74%)</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- PATTERN 3: MARKET BENCHMARK & PERCENTILE GAUGE -->
+                <section class="insight-card">
+                    <div class="card-mini-header">
+                        <div class="mini-title-group">
+                            <span class="mini-icon">🎯</span>
+                            <div>
+                                <h2 class="mini-title">Market Benchmark Position</h2>
+                                <p class="mini-desc">Position within the overall workforce distribution (N = 373)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="market-gauge-wrapper">
+                        <div class="gauge-labels">
+                            <span>Entry Band ($30k)</span>
+                            <span>Median ($95k)</span>
+                            <span>Executive ($250k)</span>
+                        </div>
+                        <div class="gauge-track">
+                            <div class="gauge-marker" id="gaugeMarker" style="left: 18%;">
+                                <div class="marker-pin"></div>
+                                <div class="marker-bubble" id="gaugeBubble">$37.3k</div>
+                            </div>
+                        </div>
+                        <div class="gauge-meta-text" id="gaugeMetaText">
+                            This profile falls into the <strong>Junior Market Segment</strong> (approx. 35th percentile).
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- BOTTOM TOOLBAR / DATASET MODAL TRIGGER -->
+        <section class="footer-stats-bar">
+            <div class="stat-pill">
+                <span class="sp-label">DATASET CORPUS:</span>
+                <span class="sp-val">373 Real Profiles</span>
+            </div>
+            <div class="stat-pill">
+                <span class="sp-label">MODEL ARCHITECTURE:</span>
+                <span class="sp-val">Random Forest (150 Trees)</span>
+            </div>
+            <div class="stat-pill">
+                <span class="sp-label">CROSS-VALIDATED R²:</span>
+                <span class="sp-val">93.5% Variance Explained</span>
+            </div>
+            <div class="stat-pill">
+                <span class="sp-label">MEAN ABSOLUTE ERROR:</span>
+                <span class="sp-val">$8,144 (±8.59%)</span>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="app-footer">
+        <p>IBM BOB Internship Project & Bharat Cares • Machine Learning Compensation Forecasting System</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

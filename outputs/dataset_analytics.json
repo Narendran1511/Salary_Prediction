@@ -1,0 +1,101 @@
+{
+  "count": 373,
+  "salary_min": 30000.0,
+  "salary_max": 250000.0,
+  "salary_mean": 100670.24,
+  "salary_median": 95000.0,
+  "percentiles": {
+    "10": 40000.0,
+    "25": 55000.0,
+    "50": 95000.0,
+    "75": 140000.0,
+    "90": 170000.0,
+    "95": 180000.0
+  },
+  "by_education": {
+    "Bachelor's": 74910.71,
+    "Master's": 129795.92,
+    "PhD": 157843.14
+  },
+  "by_gender": {
+    "Female": 97011.17,
+    "Male": 104046.39
+  },
+  "top_roles": [
+    {
+      "role": "Director of Marketing",
+      "count": 12,
+      "avg_salary": 175833.33
+    },
+    {
+      "role": "Director of Operations",
+      "count": 11,
+      "avg_salary": 172727.27
+    },
+    {
+      "role": "Senior Business Analyst",
+      "count": 10,
+      "avg_salary": 116000.0
+    },
+    {
+      "role": "Senior Marketing Analyst",
+      "count": 9,
+      "avg_salary": 89444.44
+    },
+    {
+      "role": "Senior Marketing Manager",
+      "count": 9,
+      "avg_salary": 127222.22
+    },
+    {
+      "role": "Junior Business Analyst",
+      "count": 8,
+      "avg_salary": 50000.0
+    },
+    {
+      "role": "Senior Financial Analyst",
+      "count": 7,
+      "avg_salary": 112857.14
+    },
+    {
+      "role": "Junior Financial Analyst",
+      "count": 7,
+      "avg_salary": 52857.14
+    },
+    {
+      "role": "Junior Business Development Associate",
+      "count": 7,
+      "avg_salary": 40714.29
+    },
+    {
+      "role": "Senior Data Scientist",
+      "count": 7,
+      "avg_salary": 160000.0
+    },
+    {
+      "role": "Senior Project Manager",
+      "count": 7,
+      "avg_salary": 129285.71
+    },
+    {
+      "role": "Junior Marketing Coordinator",
+      "count": 6,
+      "avg_salary": 46666.67
+    },
+    {
+      "role": "Senior Software Engineer",
+      "count": 6,
+      "avg_salary": 120833.33
+    },
+    {
+      "role": "Senior Product Manager",
+      "count": 6,
+      "avg_salary": 121666.67
+    },
+    {
+      "role": "Senior Product Designer",
+      "count": 5,
+      "avg_salary": 148000.0
+    }
+  ]
+}

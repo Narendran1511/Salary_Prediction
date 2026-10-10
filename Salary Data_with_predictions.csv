@@ -1,0 +1,376 @@
+Age,Gender,Education Level,Job Title,Years of Experience,Salary,Predicted_Salary
+32.0,Male,Bachelor's,Software Engineer,5.0,90000.0,56549.71
+28.0,Female,Master's,Data Analyst,3.0,65000.0,66961.9
+45.0,Male,PhD,Senior Manager,15.0,150000.0,150566.67
+36.0,Female,Bachelor's,Sales Associate,7.0,60000.0,68910.26
+52.0,Male,Master's,Director,20.0,200000.0,198297.78
+29.0,Male,Bachelor's,Marketing Analyst,2.0,55000.0,42133.33
+42.0,Female,Master's,Product Manager,12.0,120000.0,116163.4
+31.0,Male,Bachelor's,Sales Manager,4.0,80000.0,70884.72
+26.0,Female,Bachelor's,Marketing Coordinator,1.0,45000.0,41866.67
+38.0,Male,PhD,Senior Scientist,10.0,110000.0,113509.57
+29.0,Male,Master's,Software Developer,3.0,75000.0,71400.0
+48.0,Female,Bachelor's,HR Manager,18.0,140000.0,135207.84
+35.0,Male,Bachelor's,Financial Analyst,6.0,65000.0,67161.68
+40.0,Female,Master's,Project Manager,14.0,130000.0,117137.78
+27.0,Male,Bachelor's,Customer Service Rep,2.0,40000.0,40800.0
+44.0,Male,Bachelor's,Operations Manager,16.0,125000.0,125596.73
+33.0,Female,Master's,Marketing Manager,7.0,90000.0,90015.48
+39.0,Male,PhD,Senior Engineer,12.0,115000.0,114121.98
+25.0,Female,Bachelor's,Data Entry Clerk,0.0,35000.0,35900.0
+51.0,Male,Bachelor's,Sales Director,22.0,180000.0,178833.33
+34.0,Female,Master's,Business Analyst,5.0,80000.0,78388.89
+47.0,Male,Master's,VP of Operations,19.0,190000.0,179393.89
+30.0,Male,Bachelor's,IT Support,2.0,50000.0,42633.33
+36.0,Female,Bachelor's,Recruiter,9.0,60000.0,68069.19
+41.0,Male,Master's,Financial Manager,13.0,140000.0,130696.01
+28.0,Female,Bachelor's,Social Media Specialist,3.0,45000.0,47709.63
+37.0,Female,Master's,Software Manager,11.0,110000.0,102193.33
+24.0,Male,Bachelor's,Junior Developer,1.0,40000.0,38866.67
+43.0,Female,PhD,Senior Consultant,15.0,140000.0,143633.33
+33.0,Male,Master's,Product Designer,6.0,90000.0,90044.33
+50.0,Male,Bachelor's,CEO,25.0,250000.0,190747.22
+31.0,Female,Bachelor's,Accountant,4.0,55000.0,56584.6
+29.0,Male,Master's,Data Scientist,3.0,75000.0,71833.33
+39.0,Female,Bachelor's,Marketing Specialist,10.0,65000.0,78543.05
+46.0,Male,PhD,Senior Manager,20.0,170000.0,165400.0
+27.0,Male,Bachelor's,Technical Writer,2.0,45000.0,43533.33
+35.0,Female,Bachelor's,HR Generalist,7.0,60000.0,66223.79
+42.0,Male,Master's,Project Engineer,14.0,115000.0,121318.51
+26.0,Female,Bachelor's,Customer Success Rep,1.0,40000.0,38400.0
+49.0,Male,Bachelor's,Sales Executive,21.0,160000.0,177347.22
+34.0,Female,Master's,UX Designer,5.0,80000.0,78888.89
+48.0,Male,Master's,Operations Director,18.0,190000.0,188406.67
+30.0,Male,Bachelor's,Network Engineer,3.0,60000.0,50315.87
+36.0,Female,Bachelor's,Administrative Assistant,8.0,45000.0,51680.56
+41.0,Male,Master's,Strategy Consultant,13.0,130000.0,124293.51
+28.0,Female,Bachelor's,Copywriter,2.0,40000.0,42366.67
+32.0,Male,Bachelor's,Account Manager,5.0,75000.0,60027.13
+45.0,Female,Master's,Director of Marketing,16.0,180000.0,182066.67
+38.0,Male,PhD,Senior Scientist,11.0,120000.0,116469.57
+25.0,Male,Bachelor's,Help Desk Analyst,0.0,35000.0,36533.33
+51.0,Female,Bachelor's,Customer Service Manager,22.0,130000.0,131833.33
+33.0,Male,Master's,Business Intelligence Analyst,7.0,85000.0,87575.71
+40.0,Female,Bachelor's,Event Coordinator,12.0,60000.0,70395.27
+47.0,Male,Master's,VP of Finance,19.0,200000.0,190871.11
+29.0,Female,Bachelor's,Graphic Designer,3.0,50000.0,48393.65
+36.0,Male,Bachelor's,Sales Manager,9.0,95000.0,79031.94
+27.0,Female,Master's,UX Researcher,2.0,65000.0,45266.67
+43.0,Male,PhD,Senior Engineer,17.0,140000.0,148333.33
+30.0,Female,Bachelor's,Social Media Manager,4.0,55000.0,54899.33
+35.0,Male,Master's,Product Manager,7.0,105000.0,98350.25
+51.0,Female,Master's,Director of Operations,23.0,170000.0,174533.33
+29.0,Male,Bachelor's,Marketing Analyst,3.0,50000.0,49293.65
+40.0,Female,Bachelor's,HR Manager,12.0,80000.0,83867.27
+47.0,Male,PhD,Senior Data Scientist,21.0,180000.0,163133.33
+26.0,Male,Bachelor's,Junior Accountant,1.0,35000.0,35466.67
+38.0,Female,Master's,Digital Marketing Manager,10.0,90000.0,91465.56
+46.0,Male,Bachelor's,IT Manager,19.0,120000.0,120783.33
+31.0,Female,Bachelor's,Customer Service Representative,5.0,45000.0,46848.41
+34.0,Male,Master's,Business Development Manager,8.0,90000.0,91543.86
+49.0,Female,Master's,Senior Financial Analyst,18.0,150000.0,145288.89
+33.0,Male,Bachelor's,Web Developer,6.0,65000.0,66509.39
+39.0,Female,Bachelor's,Recruiter,11.0,70000.0,74193.64
+45.0,Male,PhD,Research Director,16.0,190000.0,181297.78
+28.0,Male,Bachelor's,Technical Support Specialist,2.0,40000.0,42400.0
+42.0,Female,Master's,Creative Director,14.0,120000.0,140612.37
+37.0,Male,Bachelor's,Project Manager,10.0,95000.0,93674.79
+50.0,Female,Bachelor's,Operations Manager,22.0,160000.0,131933.33
+32.0,Male,Master's,Senior Software Engineer,6.0,100000.0,89136.02
+48.0,Female,Master's,Human Resources Director,20.0,180000.0,178233.33
+30.0,Female,Bachelor's,Content Marketing Manager,3.0,55000.0,51771.68
+36.0,Male,Bachelor's,Technical Recruiter,8.0,70000.0,70315.16
+41.0,Female,Master's,Data Analyst,13.0,80000.0,96971.11
+25.0,Male,Bachelor's,Sales Representative,0.0,30000.0,36833.33
+52.0,Male,PhD,Chief Technology Officer,24.0,250000.0,221008.33
+29.0,Female,Bachelor's,Junior Designer,2.0,40000.0,40400.0
+34.0,Female,Master's,Financial Advisor,10.0,95000.0,96084.97
+27.0,Male,Bachelor's,Junior Account Manager,2.0,45000.0,43000.0
+40.0,Female,Bachelor's,HR Generalist,15.0,80000.0,84466.67
+46.0,Male,Master's,Senior Project Manager,21.0,135000.0,135933.4
+31.0,Female,Bachelor's,Marketing Coordinator,6.0,55000.0,56466.67
+36.0,Male,PhD,Principal Scientist,11.0,120000.0,114077.56
+29.0,Female,Bachelor's,Sales Associate,3.0,40000.0,44111.83
+43.0,Male,Bachelor's,Supply Chain Manager,18.0,105000.0,110766.67
+52.0,Female,Master's,Senior Marketing Manager,25.0,170000.0,147900.0
+33.0,Male,Bachelor's,Business Analyst,7.0,75000.0,72020.46
+39.0,Female,Bachelor's,Training Specialist,12.0,65000.0,73657.31
+47.0,Male,PhD,Research Scientist,22.0,160000.0,160433.33
+26.0,Male,Bachelor's,Junior Software Developer,1.0,35000.0,35933.33
+38.0,Female,Master's,Public Relations Manager,10.0,90000.0,91501.64
+45.0,Male,Bachelor's,Operations Analyst,20.0,110000.0,115300.0
+31.0,Female,Bachelor's,Event Coordinator,5.0,45000.0,47733.34
+35.0,Male,Master's,Product Marketing Manager,8.0,95000.0,92356.89
+49.0,Female,Master's,Senior HR Manager,19.0,150000.0,145500.0
+33.0,Male,Bachelor's,Junior Web Developer,5.0,50000.0,53425.17
+39.0,Female,Master's,Senior Project Coordinator,13.0,80000.0,96791.08
+44.0,Male,PhD,Chief Data Officer,16.0,220000.0,205800.0
+30.0,Female,Bachelor's,Digital Content Producer,3.0,50000.0,50320.32
+36.0,Male,Bachelor's,IT Support Specialist,7.0,60000.0,64454.55
+41.0,Female,Master's,Senior Marketing Analyst,14.0,100000.0,124480.14
+28.0,Male,Bachelor's,Customer Success Manager,2.0,40000.0,42866.67
+42.0,Female,Master's,Senior Graphic Designer,15.0,110000.0,118001.26
+37.0,Male,Bachelor's,Software Project Manager,9.0,95000.0,87855.86
+50.0,Female,Bachelor's,Supply Chain Analyst,22.0,130000.0,127666.67
+32.0,Male,Master's,Senior Business Analyst,6.0,90000.0,91474.19
+23.0,Female,Bachelor's,Junior Marketing Analyst,0.5,35000.0,37200.0
+31.0,Male,Master's,Senior Financial Analyst,6.0,95000.0,93690.98
+40.0,Female,Bachelor's,Office Manager,15.0,65000.0,79833.33
+48.0,Male,PhD,Principal Engineer,20.0,170000.0,165300.0
+29.0,Female,Bachelor's,Junior HR Generalist,3.0,45000.0,46136.49
+35.0,Male,Master's,Senior Product Manager,10.0,120000.0,112730.81
+42.0,Female,Bachelor's,Sales Manager,17.0,100000.0,109011.11
+53.0,Male,Master's,Director of Marketing,25.0,180000.0,194666.67
+33.0,Female,Bachelor's,Junior Operations Analyst,5.0,50000.0,56173.12
+38.0,Male,Bachelor's,Customer Service Manager,11.0,80000.0,84616.08
+44.0,Female,PhD,Senior Scientist,16.0,140000.0,158933.33
+26.0,Male,Bachelor's,Junior Accountant,2.0,40000.0,40300.0
+37.0,Female,Master's,Senior HR Generalist,9.0,95000.0,95806.41
+45.0,Male,Bachelor's,Sales Operations Manager,18.0,110000.0,114050.0
+32.0,Female,Bachelor's,Marketing Coordinator,4.0,50000.0,54600.23
+34.0,Male,Master's,Senior Software Developer,8.0,105000.0,101081.74
+50.0,Female,Master's,Director of Operations,21.0,160000.0,165733.33
+29.0,Male,Bachelor's,Junior Web Designer,3.0,45000.0,45326.98
+40.0,Female,Master's,Senior Training Specialist,12.0,100000.0,120797.42
+47.0,Male,PhD,Senior Research Scientist,22.0,160000.0,161100.0
+27.0,Male,Bachelor's,Junior Sales Representative,1.0,35000.0,36566.67
+39.0,Female,Bachelor's,Administrative Assistant,10.0,55000.0,60221.05
+46.0,Male,Master's,Senior Project Manager,19.0,140000.0,138533.4
+30.0,Female,Bachelor's,Junior Marketing Manager,4.0,50000.0,52185.04
+36.0,Male,Bachelor's,Junior Data Analyst,7.0,60000.0,59637.67
+43.0,Female,Master's,Senior Product Marketing Manager,14.0,120000.0,122206.94
+28.0,Male,Bachelor's,Junior Business Analyst,2.0,40000.0,39966.67
+41.0,Female,Master's,Senior Marketing Manager,13.0,110000.0,116578.99
+33.0,Male,Bachelor's,Junior Software Developer,5.0,50000.0,52305.73
+47.0,Male,Bachelor's,Senior Sales Manager,20.0,135000.0,133696.73
+25.0,Female,Master's,Junior Marketing Specialist,1.5,40000.0,41533.33
+34.0,Male,Bachelor's,Senior Business Analyst,8.0,90000.0,96883.6
+42.0,Female,PhD,Senior Data Scientist,16.0,150000.0,149071.05
+31.0,Male,Bachelor's,Junior Project Manager,4.0,60000.0,57408.41
+38.0,Female,Bachelor's,Senior Accountant,10.0,80000.0,94552.49
+45.0,Male,Master's,Director of Sales,19.0,175000.0,175922.22
+29.0,Female,Bachelor's,Junior Recruiter,3.0,45000.0,45093.65
+36.0,Male,Master's,Senior Business Development Manager,11.0,120000.0,116387.48
+43.0,Female,PhD,Senior Product Designer,18.0,140000.0,149666.67
+26.0,Male,Bachelor's,Junior Customer Support Specialist,2.0,35000.0,40366.67
+37.0,Female,Master's,Senior Marketing Analyst,9.0,95000.0,101934.14
+44.0,Male,Bachelor's,Senior IT Support Specialist,14.0,110000.0,129954.16
+32.0,Female,Bachelor's,Junior Financial Analyst,5.0,50000.0,54262.84
+33.0,Male,Master's,Senior Operations Manager,7.0,115000.0,105409.72
+51.0,Female,PhD,Director of Human Resources,23.0,185000.0,185766.67
+28.0,Male,Bachelor's,Junior Software Engineer,2.0,40000.0,40366.67
+39.0,Female,Bachelor's,Senior Sales Representative,12.0,90000.0,99507.01
+48.0,Male,Master's,Director of Product Management,21.0,175000.0,176656.11
+30.0,Female,Bachelor's,Junior Copywriter,3.0,45000.0,45441.75
+35.0,Male,Bachelor's,Senior Marketing Coordinator,7.0,80000.0,84272.49
+41.0,Female,Master's,Senior Human Resources Manager,13.0,120000.0,123922.5
+27.0,Male,Bachelor's,Junior Business Development Associate,1.5,35000.0,36666.67
+40.0,Female,Bachelor's,Senior Account Manager,14.0,110000.0,111484.38
+46.0,Male,PhD,Senior Researcher,18.0,150000.0,153800.0
+31.0,Female,Bachelor's,Junior HR Coordinator,4.0,50000.0,50845.96
+34.0,Male,Master's,Senior Software Engineer,9.0,105000.0,104918.27
+50.0,Female,Master's,Director of Finance,20.0,180000.0,181133.33
+29.0,Male,Bachelor's,Junior Marketing Coordinator,2.0,40000.0,40033.33
+,,,,,,61589.39
+43.0,Male,Bachelor's,Senior Project Manager,16.0,140000.0,133291.18
+26.0,Female,Master's,Junior Data Scientist,1.5,45000.0,43733.33
+35.0,Male,Bachelor's,Senior Operations Analyst,7.0,85000.0,86521.44
+42.0,Female,PhD,Senior Marketing Manager,18.0,140000.0,145800.0
+31.0,Male,Bachelor's,Junior Accountant,4.0,50000.0,53525.16
+38.0,Female,Bachelor's,Senior Human Resources Coordinator,10.0,80000.0,89458.36
+46.0,Male,Master's,Director of Operations,20.0,170000.0,171300.0
+29.0,Female,Bachelor's,Junior Sales Representative,2.0,40000.0,40033.33
+37.0,Male,Master's,Senior Business Analyst,9.0,105000.0,105646.71
+44.0,Female,PhD,Senior UX Designer,15.0,145000.0,147733.33
+27.0,Male,Bachelor's,Junior Product Manager,2.0,40000.0,40633.33
+36.0,Female,Bachelor's,Senior Marketing Specialist,8.0,85000.0,89995.35
+43.0,Male,Bachelor's,Senior IT Project Manager,14.0,130000.0,125931.55
+33.0,Female,Master's,Senior Financial Analyst,6.0,95000.0,93726.12
+34.0,Male,Bachelor's,Senior Quality Assurance Analyst,9.0,100000.0,99685.82
+50.0,Female,PhD,Director of Sales and Marketing,22.0,180000.0,179866.67
+28.0,Male,Bachelor's,Junior Operations Analyst,1.5,35000.0,35533.33
+39.0,Female,Bachelor's,Senior Account Executive,12.0,95000.0,94284.01
+47.0,Male,Master's,Director of Business Development,19.0,170000.0,179393.89
+30.0,Female,Bachelor's,Junior Social Media Manager,3.0,45000.0,45850.25
+34.0,Male,Bachelor's,Senior Product Manager,7.0,95000.0,93415.27
+40.0,Female,Master's,Senior Human Resources Specialist,13.0,120000.0,108773.89
+28.0,Male,Bachelor's,Junior Business Analyst,2.0,40000.0,39966.67
+41.0,Female,Bachelor's,Senior Marketing Coordinator,11.0,90000.0,103732.95
+45.0,Male,PhD,Senior Data Analyst,17.0,155000.0,155522.22
+32.0,Female,Bachelor's,Junior Account Manager,5.0,55000.0,55138.76
+35.0,Male,Master's,Senior Software Developer,9.0,110000.0,106818.96
+49.0,Female,Master's,Director of Human Capital,21.0,180000.0,185500.0
+30.0,Male,Bachelor's,Junior Advertising Coordinator,3.0,45000.0,45908.59
+44.0,Male,Bachelor's,Senior Sales Manager,16.0,130000.0,131696.73
+27.0,Female,Master's,Junior UX Designer,1.5,45000.0,42866.67
+36.0,Male,Bachelor's,Senior Accountant,7.0,90000.0,90040.58
+41.0,Female,PhD,Senior Marketing Director,17.0,160000.0,158600.0
+31.0,Male,Bachelor's,Junior HR Generalist,4.0,50000.0,51264.66
+39.0,Female,Bachelor's,Senior Operations Manager,10.0,120000.0,117097.74
+47.0,Male,Master's,Director of Finance,20.0,170000.0,175113.89
+30.0,Female,Bachelor's,Junior Marketing Coordinator,2.0,40000.0,40033.33
+38.0,Male,Master's,Senior IT Consultant,9.0,110000.0,112979.41
+45.0,Female,PhD,Senior Product Designer,15.0,150000.0,149933.33
+28.0,Male,Bachelor's,Junior Business Development Associate,2.0,40000.0,39766.67
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,85000.0,85035.21
+44.0,Male,Bachelor's,Senior Software Engineer,14.0,130000.0,129920.83
+34.0,Female,Master's,Senior Financial Advisor,6.0,100000.0,93188.3
+35.0,Male,Bachelor's,Senior Project Coordinator,9.0,95000.0,95648.16
+50.0,Female,PhD,Director of Operations,22.0,180000.0,178600.0
+29.0,Male,Bachelor's,Junior Business Operations Analyst,1.5,35000.0,35266.67
+40.0,Female,Bachelor's,Senior Sales Representative,12.0,100000.0,106462.37
+48.0,Male,Master's,Director of Marketing,19.0,170000.0,174977.78
+31.0,Female,Bachelor's,Junior Social Media Specialist,3.0,45000.0,49697.24
+33.0,Male,Bachelor's,Senior Product Development Manager,7.0,100000.0,96777.76
+42.0,Female,Master's,Senior Human Resources Manager,13.0,140000.0,133268.56
+28.0,Male,Bachelor's,Junior Financial Analyst,2.0,40000.0,39966.67
+40.0,Female,Bachelor's,Senior Marketing Manager,11.0,105000.0,110424.0
+46.0,Male,PhD,Senior Data Scientist,18.0,160000.0,158433.33
+33.0,Female,Bachelor's,Junior Operations Manager,5.0,70000.0,65022.57
+37.0,Male,Master's,Senior Software Architect,9.0,120000.0,113652.0
+51.0,Female,Master's,Director of Human Resources,21.0,190000.0,184133.33
+30.0,Male,Bachelor's,Junior Marketing Specialist,3.0,45000.0,47022.66
+43.0,Male,Bachelor's,Senior Project Manager,15.0,120000.0,126652.16
+27.0,Female,Master's,Junior Research Scientist,1.5,50000.0,40700.0
+35.0,Male,Bachelor's,Senior Operations Analyst,8.0,85000.0,85839.0
+42.0,Female,PhD,Senior Marketing Manager,13.0,140000.0,138662.72
+32.0,Male,Bachelor's,Junior Sales Representative,3.0,45000.0,49141.26
+37.0,Female,Bachelor's,Senior Financial Analyst,9.0,100000.0,103564.91
+45.0,Male,Master's,Senior Software Developer,16.0,140000.0,140371.01
+33.0,Female,Bachelor's,Junior Operations Analyst,5.0,70000.0,56173.12
+39.0,Male,Bachelor's,Senior Marketing Specialist,10.0,120000.0,114478.58
+44.0,Female,PhD,Senior HR Manager,18.0,160000.0,155966.67
+29.0,Male,Bachelor's,Junior Business Analyst,1.5,40000.0,38266.67
+38.0,Female,Bachelor's,Senior Product Manager,10.0,120000.0,116849.12
+46.0,Male,PhD,Senior Data Analyst,19.0,150000.0,154355.56
+34.0,Female,Bachelor's,Junior Marketing Analyst,6.0,70000.0,66438.89
+36.0,Male,Bachelor's,Senior Operations Manager,8.0,95000.0,97674.7
+49.0,Female,Master's,Director of Marketing,21.0,180000.0,179466.67
+31.0,Male,Bachelor's,Junior Financial Analyst,3.0,50000.0,50358.52
+41.0,Female,Bachelor's,Senior Project Coordinator,11.0,95000.0,98025.0
+47.0,Male,Master's,Director of Operations,20.0,170000.0,170966.67
+30.0,Female,Bachelor's,Junior Marketing Coordinator,2.0,40000.0,40033.33
+38.0,Male,Master's,Senior IT Consultant,9.0,110000.0,112979.41
+45.0,Female,PhD,Senior Product Designer,15.0,150000.0,149933.33
+28.0,Male,Bachelor's,Junior Business Development Associate,2.0,40000.0,39766.67
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,85000.0,85035.21
+44.0,Male,Bachelor's,Senior Software Engineer,14.0,130000.0,129920.83
+34.0,Female,Master's,Senior Financial Advisor,6.0,100000.0,93188.3
+35.0,Male,Bachelor's,Senior Project Coordinator,9.0,95000.0,95648.16
+50.0,Female,PhD,Director of Operations,22.0,180000.0,178600.0
+29.0,Male,Bachelor's,Junior Business Operations Analyst,1.5,350.0,35266.67
+,,,,,,61589.39
+37.0,Female,Bachelor's,Senior Financial Manager,10.0,120000.0,113955.28
+46.0,Male,PhD,Senior Data Scientist,18.0,160000.0,158433.33
+31.0,Female,Bachelor's,Junior Marketing Coordinator,3.0,50000.0,50878.58
+42.0,Male,Bachelor's,Senior Operations Manager,12.0,110000.0,114536.04
+29.0,Female,Bachelor's,Junior Sales Representative,1.5,40000.0,38833.33
+36.0,Male,Bachelor's,Senior Marketing Specialist,8.0,95000.0,93956.35
+44.0,Female,Master's,Senior HR Specialist,15.0,140000.0,137027.38
+33.0,Male,Bachelor's,Junior Operations Manager,4.0,60000.0,60653.73
+39.0,Female,Bachelor's,Senior Marketing Coordinator,9.0,110000.0,103940.1
+45.0,Male,PhD,Senior Data Engineer,16.0,150000.0,151333.33
+32.0,Female,Bachelor's,Junior Marketing Manager,4.0,60000.0,59906.11
+37.0,Male,Bachelor's,Senior Financial Analyst,8.0,90000.0,93047.18
+47.0,Female,Master's,Director of Marketing,20.0,180000.0,177500.0
+30.0,Male,Bachelor's,Junior Business Analyst,2.0,40000.0,40033.33
+38.0,Female,Bachelor's,Senior Project Manager,9.0,120000.0,118768.66
+46.0,Male,PhD,Senior Data Analyst,17.0,160000.0,157755.56
+34.0,Female,Bachelor's,Junior Financial Analyst,5.0,70000.0,66886.68
+36.0,Male,Bachelor's,Senior Product Manager,8.0,95000.0,94777.28
+49.0,Female,Master's,Director of Operations,21.0,180000.0,176166.67
+31.0,Male,Bachelor's,Junior Operations Analyst,3.0,50000.0,50491.86
+41.0,Female,Bachelor's,Senior Project Coordinator,11.0,95000.0,98025.0
+47.0,Male,Master's,Director of Marketing,19.0,170000.0,171144.44
+29.0,Female,Bachelor's,Junior Business Development Associate,1.5,35000.0,35200.0
+35.0,Male,Bachelor's,Senior Financial Manager,9.0,100000.0,99950.43
+44.0,Female,PhD,Senior Product Designer,15.0,150000.0,149700.0
+33.0,Male,Bachelor's,Junior Business Analyst,4.0,60000.0,60065.35
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,85000.0,85035.21
+44.0,Male,Bachelor's,Senior Software Engineer,13.0,130000.0,129064.26
+32.0,Male,Bachelor's,Junior Product Manager,4.0,65000.0,61356.28
+38.0,Female,Bachelor's,Senior Business Analyst,10.0,110000.0,108102.25
+49.0,Male,PhD,Director of Operations,21.0,180000.0,178633.33
+29.0,Female,Bachelor's,Junior Marketing Specialist,2.0,40000.0,40000.0
+35.0,Male,Bachelor's,Senior Business Development Manager,7.0,90000.0,90633.82
+45.0,Female,Master's,Senior HR Manager,14.0,140000.0,136077.38
+33.0,Male,Bachelor's,Junior Financial Analyst,4.0,60000.0,60065.35
+40.0,Female,Bachelor's,Senior Marketing Manager,12.0,130000.0,118812.23
+44.0,Male,PhD,Senior Data Scientist,16.0,160000.0,159200.0
+30.0,Female,Bachelor's,Junior Operations Coordinator,2.0,40000.0,40133.33
+37.0,Male,Bachelor's,Senior Marketing Analyst,9.0,100000.0,103268.18
+48.0,Female,Master's,Director of HR,20.0,180000.0,179277.78
+31.0,Male,Bachelor's,Junior Project Manager,3.0,55000.0,53725.32
+38.0,Female,Bachelor's,Senior Operations Coordinator,9.0,120000.0,117231.27
+45.0,Male,PhD,Senior Data Engineer,16.0,150000.0,151333.33
+33.0,Female,Bachelor's,Junior Marketing Manager,5.0,70000.0,66028.13
+36.0,Male,Bachelor's,Senior Business Analyst,8.0,95000.0,94092.75
+49.0,Female,Master's,Director of Marketing,21.0,180000.0,179466.67
+31.0,Male,Bachelor's,Junior Operations Analyst,3.0,50000.0,50491.86
+42.0,Female,Bachelor's,Senior Project Manager,12.0,120000.0,118076.12
+47.0,Male,Master's,Director of Marketing,19.0,170000.0,171144.44
+29.0,Female,Bachelor's,Junior Business Development Associate,1.5,35000.0,35200.0
+35.0,Male,Bachelor's,Senior Financial Manager,9.0,100000.0,99950.43
+44.0,Female,PhD,Senior Product Designer,15.0,150000.0,149700.0
+33.0,Male,Bachelor's,Junior Business Analyst,4.0,60000.0,60065.35
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,85000.0,85035.21
+44.0,Male,Bachelor's,Senior Software Engineer,13.0,130000.0,129064.26
+34.0,Female,Master's,Senior Financial Advisor,6.0,80000.0,93188.3
+36.0,Male,Bachelor's,Senior Marketing Specialist,8.0,95000.0,93956.35
+30.0,Female,Bachelor's,Junior HR Coordinator,2.0,40000.0,40066.67
+37.0,Male,Bachelor's,Senior Business Development Manager,10.0,120000.0,117255.41
+45.0,Female,Master's,Senior Marketing Manager,16.0,160000.0,148607.84
+32.0,Male,Bachelor's,Junior Financial Advisor,4.0,65000.0,61168.93
+39.0,Female,Bachelor's,Senior Project Manager,12.0,130000.0,123614.6
+47.0,Male,PhD,Director of Engineering,20.0,180000.0,184877.78
+29.0,Female,Bachelor's,Junior Marketing Analyst,2.0,40000.0,39966.67
+36.0,Male,Bachelor's,Senior Operations Manager,9.0,100000.0,104845.24
+43.0,Female,PhD,Senior Data Scientist,15.0,150000.0,149066.67
+32.0,Male,Bachelor's,Junior Marketing Coordinator,3.0,55000.0,53323.08
+38.0,Female,Bachelor's,Senior Business Analyst,10.0,110000.0,108102.25
+48.0,Male,Master's,Director of Marketing,21.0,180000.0,176155.56
+31.0,Female,Bachelor's,Junior Business Development Associate,3.0,50000.0,50097.39
+40.0,Male,Bachelor's,Senior Financial Analyst,12.0,130000.0,122829.74
+45.0,Female,PhD,Senior UX Designer,16.0,160000.0,158633.33
+33.0,Male,Bachelor's,Junior Product Manager,4.0,60000.0,60284.58
+36.0,Female,Bachelor's,Senior Marketing Manager,8.0,95000.0,93777.51
+47.0,Male,Master's,Director of Operations,19.0,170000.0,170466.67
+29.0,Female,Bachelor's,Junior Project Manager,2.0,40000.0,40000.0
+34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,90000.0,90964.31
+44.0,Female,PhD,Senior Business Analyst,15.0,150000.0,150033.33
+33.0,Male,Bachelor's,Junior Marketing Specialist,5.0,70000.0,68063.68
+35.0,Female,Bachelor's,Senior Financial Manager,8.0,90000.0,89850.08
+43.0,Male,Master's,Director of Marketing,18.0,170000.0,169100.0
+31.0,Female,Bachelor's,Junior Financial Analyst,3.0,50000.0,49995.87
+41.0,Male,Bachelor's,Senior Product Manager,14.0,150000.0,144437.0
+44.0,Female,PhD,Senior Data Engineer,16.0,160000.0,159333.33
+33.0,Male,Bachelor's,Junior Business Analyst,4.0,60000.0,60065.35
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,85000.0,85035.21
+45.0,Male,Master's,Director of Engineering,19.0,180000.0,183600.0
+28.0,Female,Bachelor's,Junior Operations Manager,1.0,35000.0,35100.0
+36.0,Male,Bachelor's,Senior Business Development Manager,8.0,110000.0,94076.93
+44.0,Female,PhD,Senior Data Scientist,16.0,160000.0,159533.33
+31.0,Male,Bachelor's,Junior Marketing Coordinator,3.0,55000.0,53126.22
+38.0,Female,Bachelor's,Senior Business Analyst,10.0,110000.0,108102.25
+48.0,Male,Master's,Director of Marketing,21.0,180000.0,176155.56
+31.0,Female,Bachelor's,Junior Business Development Associate,3.0,50000.0,50097.39
+40.0,Male,Bachelor's,Senior Financial Analyst,12.0,130000.0,122829.74
+45.0,Female,PhD,Senior UX Designer,16.0,160000.0,158633.33
+33.0,Male,Bachelor's,Junior Product Manager,4.0,60000.0,60284.58
+36.0,Female,Bachelor's,Senior Marketing Manager,8.0,95000.0,93777.51
+47.0,Male,Master's,Director of Operations,19.0,170000.0,170466.67
+29.0,Female,Bachelor's,Junior Project Manager,2.0,40000.0,40000.0
+34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,90000.0,90964.31
+44.0,Female,PhD,Senior Business Analyst,15.0,150000.0,150033.33
+33.0,Male,Bachelor's,Junior Marketing Specialist,5.0,70000.0,68063.68
+35.0,Female,Bachelor's,Senior Financial Manager,8.0,90000.0,89850.08
+43.0,Male,Master's,Director of Marketing,18.0,170000.0,169100.0
+31.0,Female,Bachelor's,Junior Financial Analyst,3.0,50000.0,49995.87
+41.0,Male,Bachelor's,Senior Product Manager,14.0,150000.0,144437.0
+44.0,Female,PhD,Senior Data Engineer,16.0,160000.0,159333.33
+33.0,Male,Bachelor's,Junior Business Analyst,4.0,60000.0,60065.35
+35.0,Female,Bachelor's,Senior Marketing Analyst,8.0,85000.0,85035.21
+43.0,Male,Master's,Director of Operations,19.0,170000.0,169400.0
+29.0,Female,Bachelor's,Junior Project Manager,2.0,40000.0,40000.0
+34.0,Male,Bachelor's,Senior Operations Coordinator,7.0,90000.0,90964.31
+44.0,Female,PhD,Senior Business Analyst,15.0,150000.0,150033.33
